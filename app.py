@@ -256,13 +256,18 @@ Used to **analyze and predict relationships** between quantitative variables.
     st.caption("Simple Linear Regression – predicts Y using X.")
 
     with st.expander("More context on Regression"):
-        st.markdown(r"""
-        - **b (Slope):** rate of change in Y for one-unit change in X  
-          \\( b = r \frac{\sigma_y}{\sigma_x} \\)
-        - **a (Intercept):** predicted Y when X = 0  
-          \\( a = \bar{y} - b\bar{x} \\)
+        st.markdown("""
+        - **b (Slope):** rate of change in Y for one-unit change in X
+        """)
+        st.latex(r"b = r \frac{\sigma_y}{\sigma_x}")
+        st.markdown("""
+        - **a (Intercept):** predicted Y when X = 0
+        """)
+        st.latex(r"a = \bar{y} - b\bar{x}")
+        st.markdown("""
         - Regression helps in prediction and quantifying impact of X on Y.
         """)
+
 
 
     st.latex(r"R^2 = r^2")
@@ -277,4 +282,5 @@ st.info("""
 - Use **Data Analysis ToolPak** for ANOVA, Regression, and t-tests.
 - For practice, create small 5–10 record datasets and test each formula manually and via Excel.
 """)
+
 
