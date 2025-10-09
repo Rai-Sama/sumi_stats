@@ -1,4 +1,4 @@
-'''
+
 import streamlit as st
 import pandas as pd
 
@@ -283,6 +283,8 @@ st.info("""
 - Use **Data Analysis ToolPak** for ANOVA, Regression, and t-tests.
 - For practice, create small 5–10 record datasets and test each formula manually and via Excel.
 """)
+
+
 '''
 
 # app.py
@@ -567,3 +569,6 @@ for item in topic_data["items"]:
 
 st.markdown("---")
 st.caption("Created for quick revision before exams — clean, interactive formula reference.")
+
+'''
+
